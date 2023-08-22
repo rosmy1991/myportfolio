@@ -1,0 +1,42 @@
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Hind:wght@300&family=Lobster&display=swap');
+/* variable declaration  :root means variable accesibility full pgm*/
+:root{
+    --red:#EF233C;
+    --white:f1faee;
+
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #000000;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Lobster', cursive;
+    border: none;
+}
+/* nav item enna classile ella a tag'le contentnum white color kodukkan */
+.nav-item a{
+    color: white;
+}
+.nav-item a:hover{
+    color: var(--red);
+}
+.rowcolor{
+    background-color: #000000;
+    color: white;
+}
+.btn2{
+    width: 400px;
+    height: 50px;
+}
+.card-img-top{
+    height: 220px;
+}
+.icons i{
+margin-left: 10px;
+color: var(--red);
+}
